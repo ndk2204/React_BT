@@ -1,11 +1,11 @@
 import { createStore, combineReducers } from "redux";
 import { DatVeReducer } from "./dat-ve/datve.reducer";
-
+import { QuanLySinhVienReducer } from "./formSV/formSV.reducer";
 
 
 const rootReducer = combineReducers({
   DatVeReducer,
-
+  QuanLySinhVienReducer,
 
 });
 

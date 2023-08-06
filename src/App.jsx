@@ -4,15 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Screen from './dat-ve-xem-phim/screen'
 import DanhSachGhe from './dat-ve-xem-phim/ds-ghe'
+import FormSV from './FormSV/FormSV'
 
 function App() {
 
   return (
     <>    
-      <div className="d-flex justify-content-between">
+    <FormSV/>
+      {/* <div className="d-flex justify-content-between">
         <Screen />
         <DanhSachGhe />
-      </div>
+      </div> */}
     </>
   )
 }
